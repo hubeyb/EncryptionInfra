@@ -1,0 +1,43 @@
+version: '3.4'
+
+services:
+  #encryptioninfra.apigateway:
+  #  image: ${DOCKER_REGISTRY-}encryptioninfraapigateway
+  #  build:
+  #    context: .
+  #    dockerfile: EncryptionInfra.ApiGateway/Dockerfile
+  #  ports:
+  #  - "7000:80"
+
+  #encryptioninfra.authentication:
+  #  image: ${DOCKER_REGISTRY-}encryptioninfraauthentication
+  #  build:
+  #    context: .
+  #    dockerfile: MicroServices/EncryptionInfra.Authentication/Dockerfile
+  #  ports:
+  #  - "7001:80"
+
+  #encryptioninfra.encryption:
+  #  image: ${DOCKER_REGISTRY-}encryptioninfraencryption
+  #  build:
+  #    context: .
+  #    dockerfile: MicroServices/EncryptionInfra.Encryption/Dockerfile
+  #  ports:
+  #  - "7002:80"
+
+  encryptioninfra.rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+    - '5672:5672'
+    - '15672:15672'
+
+  #encryptioninfra.consumer:
+  #  image: ${DOCKER_REGISTRY-}encryptioninfraconsumer
+  #  build:
+  #    context: .
+  #    dockerfile: ../EncryptionInfra.Consumer/Dockerfile
+
+  #encryptioninfra.redis:
+  #  image: redis:alpine
+  #  ports:
+  #  - "6379:6379"

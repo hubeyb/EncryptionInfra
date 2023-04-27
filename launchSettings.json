@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "encryptioninfra.apigateway": "StartDebugging",
+        "encryptioninfra.authentication": "StartDebugging",
+        "encryptioninfra.encryption": "StartDebugging",
+        "encryptioninfra.consumer": "StartDebugging"
+      }
+    }
+  }
+}
