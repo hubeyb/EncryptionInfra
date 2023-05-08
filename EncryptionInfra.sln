@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptionInfra.Test", "Tes
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{26C4D1AC-DECD-43E6-82C7-965AC6651219}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{B9932B58-C8ED-4ECB-8B2E-15418E9C0374}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptionInfra.Consumer", "Consumer\EncryptionInfra.Consumer\EncryptionInfra.Consumer.csproj", "{3BED131D-68B3-4C5D-8D8F-35A456FAAC6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,10 @@ Global
 		{26C4D1AC-DECD-43E6-82C7-965AC6651219}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26C4D1AC-DECD-43E6-82C7-965AC6651219}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26C4D1AC-DECD-43E6-82C7-965AC6651219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BED131D-68B3-4C5D-8D8F-35A456FAAC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BED131D-68B3-4C5D-8D8F-35A456FAAC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BED131D-68B3-4C5D-8D8F-35A456FAAC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BED131D-68B3-4C5D-8D8F-35A456FAAC6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +75,7 @@ Global
 		{F8185165-556A-47CC-AB76-55EEBBD44589} = {AC99C9F1-0DFA-45E2-96E2-81D6CDB65FFF}
 		{0F9CF525-51C8-4C04-9AEC-D276464A9448} = {AC99C9F1-0DFA-45E2-96E2-81D6CDB65FFF}
 		{E0A23285-FA3D-476E-8234-DF5B0CE9B87B} = {60FCA823-4154-491B-9635-6239C84A76E1}
+		{3BED131D-68B3-4C5D-8D8F-35A456FAAC6E} = {B9932B58-C8ED-4ECB-8B2E-15418E9C0374}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8B5EC46-D8ED-4521-8FF0-E077FB47B131}
