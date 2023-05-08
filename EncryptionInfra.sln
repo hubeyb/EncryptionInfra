@@ -17,15 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptionInfra.Encryption"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptionInfra.Authentication", "MicroServices\EncryptionInfra.Authentication\EncryptionInfra.Authentication.csproj", "{0F9CF525-51C8-4C04-9AEC-D276464A9448}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{26C4D1AC-DECD-43E6-82C7-965AC6651219}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{60FCA823-4154-491B-9635-6239C84A76E1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptionInfra.Test", "Tests\EncryptionInfra.Test\EncryptionInfra.Test.csproj", "{E0A23285-FA3D-476E-8234-DF5B0CE9B87B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{337C16F0-B44C-4919-B5E0-956D5F024EE8}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptionInfra.Consumer", "Consumer\EncryptionInfra.Consumer\EncryptionInfra.Consumer.csproj", "{F5E0C5E5-5070-434E-80C4-C6A67020A938}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{26C4D1AC-DECD-43E6-82C7-965AC6651219}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,18 +49,14 @@ Global
 		{0F9CF525-51C8-4C04-9AEC-D276464A9448}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F9CF525-51C8-4C04-9AEC-D276464A9448}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F9CF525-51C8-4C04-9AEC-D276464A9448}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26C4D1AC-DECD-43E6-82C7-965AC6651219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26C4D1AC-DECD-43E6-82C7-965AC6651219}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26C4D1AC-DECD-43E6-82C7-965AC6651219}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26C4D1AC-DECD-43E6-82C7-965AC6651219}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E0A23285-FA3D-476E-8234-DF5B0CE9B87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E0A23285-FA3D-476E-8234-DF5B0CE9B87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0A23285-FA3D-476E-8234-DF5B0CE9B87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0A23285-FA3D-476E-8234-DF5B0CE9B87B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5E0C5E5-5070-434E-80C4-C6A67020A938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5E0C5E5-5070-434E-80C4-C6A67020A938}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5E0C5E5-5070-434E-80C4-C6A67020A938}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5E0C5E5-5070-434E-80C4-C6A67020A938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C4D1AC-DECD-43E6-82C7-965AC6651219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C4D1AC-DECD-43E6-82C7-965AC6651219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C4D1AC-DECD-43E6-82C7-965AC6651219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C4D1AC-DECD-43E6-82C7-965AC6651219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,7 +67,6 @@ Global
 		{F8185165-556A-47CC-AB76-55EEBBD44589} = {AC99C9F1-0DFA-45E2-96E2-81D6CDB65FFF}
 		{0F9CF525-51C8-4C04-9AEC-D276464A9448} = {AC99C9F1-0DFA-45E2-96E2-81D6CDB65FFF}
 		{E0A23285-FA3D-476E-8234-DF5B0CE9B87B} = {60FCA823-4154-491B-9635-6239C84A76E1}
-		{F5E0C5E5-5070-434E-80C4-C6A67020A938} = {337C16F0-B44C-4919-B5E0-956D5F024EE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8B5EC46-D8ED-4521-8FF0-E077FB47B131}

@@ -1,6 +1,6 @@
 {
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:7000"
+    "BaseUrl": "http://localhost:5000"
   },
   "Routes": [
     {
@@ -13,7 +13,14 @@
           "Host": "localhost",
           "Port": 7001
         }
-      ]
+      ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "5s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
     },
     {
       "UpstreamPathTemplate": "/gw/encryption/{everything}",

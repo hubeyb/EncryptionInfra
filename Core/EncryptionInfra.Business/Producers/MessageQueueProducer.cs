@@ -1,4 +1,5 @@
 ﻿using EncryptionInfra.Domain.Interfaces;
+using EncryptionInfra.Domain.Model;
 using EncryptionInfra.Domain.Model.ResponseModel;
 using MassTransit;
 using System;
@@ -23,7 +24,7 @@ namespace EncryptionInfra.Business
             if (request == null)
                 throw new Exception("Request can not be null");
 
-            var req = bus.CreateRequestClient<string>().Create(request);
+            var req = bus.CreateRequestClient<EncryptionText>().Create(request);
             var result = await req.GetResponse<MessageQueueResponse>();
             return result.Message;
         }
@@ -33,7 +34,7 @@ namespace EncryptionInfra.Business
             if (request == null)
                 throw new Exception("Request can not be null");
 
-            var req = bus.CreateRequestClient<string>().Create(request);
+            var req = bus.CreateRequestClient<DecryptionText>().Create(request);
             var result = await req.GetResponse<MessageQueueResponse>();
             return result.Message;
         }
